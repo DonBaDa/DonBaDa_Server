@@ -66,10 +66,10 @@
 카드등록
 > body -<br>
 > - id: user id <br>
-> - card_number: card number<br>
-> - expiry: 유효기간<br>
-> - birth: 생년월일<br>
-> - pw: 비밃번호r<br>
+> - card_number: card number DDDD-DDDD-DDDD-DDDD<br>
+> - expiry: 유효기간 YYYY-DD<br> 
+> - birth: 생년월일 YYMMDD<br>
+> - pw: 비밃번호 DD<br>
 
 > return - 200<br>
 > - User Schema
