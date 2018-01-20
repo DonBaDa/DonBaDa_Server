@@ -5,21 +5,21 @@
 ### User Schema
 > _id: String <br>
 > id: String  <br>
-> fb_token: String<br>      // 페이스북 토큰
-> name: String<br>          // 이름
-> birth: String<br>         // 생일
-> phone: String<br>         // 전화번호
-> picture: String<br>       // 사진(페이스북)
-> debt_rooms: [Room]<br>    // 채무자 룸 (나에게 돈을 줘야하는 사람)
-> credit_rooms: [Room]<br>  // 채권자 룸 (내가 돈을 줘야하는 사람)
+> fb_token: String      // 페이스북 토큰 <br>
+> name: String          // 이름 <br>
+> birth: String         // 생일 <br>
+> phone: String         // 전화번호 <br>
+> picture: String       // 사진(페이스북) <br>
+> debt_rooms: [Room]    // 채무자 룸 (나에게 돈을 줘야하는 사람) <br>
+> credit_rooms: [Room]  // 채권자 룸 (내가 돈을 줘야하는 사람) <br>
 
 ### Room Schema
-> creditor: User,  //채권자 (돈을 받아야하는 사람)
-> debtor: User,    //채무자 (돈을 갚아야하는 사람)
-> D_day: String,   //디데이
-> amount: String,  //돈 양
-> title: String,   //제목 
-> isEnd: Boolean   //돈을 갚았냐 안갚았냐
+> creditor: User,  //채권자 (돈을 받아야하는 사람) <br>
+> debtor: User,    //채무자 (돈을 갚아야하는 사람) <br>
+> D_day: String,   //디데이 <br>
+> amount: String,  //돈 양 <br>
+> title: String,   //제목  <br>
+> isEnd: Boolean   //돈을 갚았냐 안갚았냐 <br>
 
 
 ### Query
