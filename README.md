@@ -175,7 +175,7 @@ host: "soylatte.kr" port: 3344
 > '{"id": "${user-id}", "type": "set"} 유저정보 저장
 
 ##### [ON]
-> 'gps' GPS 페널티
-> 'lock' Lock 페널티
-> 'sound' sound 페널티
-> 'flash' flash 페널티
+> 'gps' GPS 페널티 <br>
+> 'lock' Lock 페널티 <br>
+> 'sound' sound 페널티 <br>
+> 'flash' flash 페널티 <br>
